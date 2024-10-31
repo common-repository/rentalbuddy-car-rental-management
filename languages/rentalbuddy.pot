@@ -1,0 +1,342 @@
+# Copyright (C) 2020 mailchimp-for-wp
+# This file is distributed under the same license as the mailchimp-for-wp package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RentalBuddy - Car Rental Calculator\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Webful Creations ateeq@webfulcreations.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/classes/class-rentalbuddy_documentation.php:27
+msgid "Documentation"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_documentation.php:44
+msgid "Rental Buddy"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_documentation.php:47
+msgid "Please use the shortcode below to add calculator into post or page."
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_documentation.php:51
+msgid "To hide cars you can add showcars=\"NO\" NO in capital to shortcode."
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:28
+msgid "Settings"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:49
+msgid "Main Settings - RentalBuddy"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:57
+msgid "Mileage Allowance"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:60
+msgid "Weekly Allowance"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:64
+msgid "Daily Allowance"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:68
+msgid "Hourly Allowance"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:77
+msgid "Save Settings!"
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:91
+msgid "Couldn't verify nonce please reload page."
+msgstr ""
+
+#: lib/classes/class-rentalbuddy_settings.php:102
+msgid "Settings updated!"
+msgstr ""
+
+#: lib/includes/admin_menu.php:12
+msgid "RentalBuddy"
+msgstr ""
+
+#: lib/includes/admin_menu.php:15 lib/includes/wc_cars.php:14
+#: lib/includes/wc_cars.php:25
+msgid "Cars"
+msgstr ""
+
+#: lib/includes/admin_menu.php:17 lib/includes/wc_cars.php:51
+msgid "Manufactures"
+msgstr ""
+
+#: lib/includes/admin_menu.php:20
+msgid "Bookings"
+msgstr ""
+
+#: lib/includes/admin_menu.php:22
+msgid "Clients"
+msgstr ""
+
+#: lib/includes/main_page.php:7
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: lib/includes/main_page.php:33
+msgid "Contact Us"
+msgstr ""
+
+#: lib/includes/main_page.php:38
+msgid "Chat With Us"
+msgstr ""
+
+#: lib/includes/theme_functions.php:30
+msgid "Weeks"
+msgstr ""
+
+#: lib/includes/theme_functions.php:30
+msgid "Week"
+msgstr ""
+
+#: lib/includes/theme_functions.php:34
+msgid "Days"
+msgstr ""
+
+#: lib/includes/theme_functions.php:34
+msgid "Day"
+msgstr ""
+
+#: lib/includes/theme_functions.php:38
+msgid "Hours"
+msgstr ""
+
+#: lib/includes/theme_functions.php:38
+msgid "Hour"
+msgstr ""
+
+#: lib/includes/theme_functions.php:240
+msgid "Select Transport"
+msgstr ""
+
+#: lib/includes/theme_functions.php:254
+#: lib/shortcodes/rentalbuddy_calulator.php:161
+msgid "Nothing found please add some trasnports"
+msgstr ""
+
+#: lib/includes/wc_cars.php:12
+msgid "Add New Car"
+msgstr ""
+
+#: lib/includes/wc_cars.php:13
+msgid "Car"
+msgstr ""
+
+#: lib/includes/wc_cars.php:15
+msgid "All Cars"
+msgstr ""
+
+#: lib/includes/wc_cars.php:16 lib/includes/wc_cars.php:60
+msgid "Edit "
+msgstr ""
+
+#: lib/includes/wc_cars.php:17
+msgid "New "
+msgstr ""
+
+#: lib/includes/wc_cars.php:18
+msgid "View "
+msgstr ""
+
+#: lib/includes/wc_cars.php:19 lib/includes/wc_cars.php:56
+msgid "Search "
+msgstr ""
+
+#: lib/includes/wc_cars.php:20
+msgid "Nothing found"
+msgstr ""
+
+#: lib/includes/wc_cars.php:21
+msgid "Nothing in trash"
+msgstr ""
+
+#: lib/includes/wc_cars.php:26
+msgid "Cars Section"
+msgstr ""
+
+#: lib/includes/wc_cars.php:50
+msgid "Manufacture"
+msgstr ""
+
+#: lib/includes/wc_cars.php:57
+msgid "All "
+msgstr ""
+
+#: lib/includes/wc_cars.php:58 lib/includes/wc_cars.php:59
+msgid "Parent "
+msgstr ""
+
+#: lib/includes/wc_cars.php:61
+msgid "Update "
+msgstr ""
+
+#: lib/includes/wc_cars.php:62
+msgid "Add New "
+msgstr ""
+
+#: lib/includes/wc_cars.php:63
+msgid "New Name"
+msgstr ""
+
+#: lib/includes/wc_cars.php:91
+msgid "Car Details"
+msgstr ""
+
+#: lib/includes/wc_cars.php:119
+msgid "Transmission"
+msgstr ""
+
+#: lib/includes/wc_cars.php:120
+msgid "Automatic"
+msgstr ""
+
+#: lib/includes/wc_cars.php:121
+msgid "Manual"
+msgstr ""
+
+#: lib/includes/wc_cars.php:128
+msgid "Hourly Rate"
+msgstr ""
+
+#: lib/includes/wc_cars.php:135
+msgid "Daily Rate"
+msgstr ""
+
+#: lib/includes/wc_cars.php:142
+msgid "Weekly Rate"
+msgstr ""
+
+#: lib/includes/wc_cars.php:149
+msgid "Extra Mileage Price"
+msgstr ""
+
+#: lib/includes/wc_cars.php:157
+msgid "Daily allowed Mileage"
+msgstr ""
+
+#: lib/includes/wc_cars.php:165
+msgid "Weekly allowed Mileage"
+msgstr ""
+
+#: lib/includes/wc_cars.php:173
+msgid "Hourly allowed Mileage"
+msgstr ""
+
+#: lib/includes/wc_cars.php:180
+msgid "Specifications"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:20
+msgid "Select Vehicle"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:30
+msgid "Pick Up Date"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:35
+msgid "Pick Up Time"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:40
+msgid "Return Date"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:45
+msgid "Return Time"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:50
+msgid "KM driven"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:56
+msgid "Calculate"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:111
+msgid "RATES"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:137
+msgid "hour"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:140
+msgid "day"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:145
+msgid "KM Free/day"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:193
+msgid "Please select transport"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:195
+msgid "Please select pickup date"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:197
+msgid "Please select pickup time"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:199
+msgid "Please select return date"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:201
+msgid "Please select return time"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:252
+msgid "From"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:258
+msgid "To"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:267
+msgid "Booking For"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:290
+msgid "Allowed Mileage"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:296
+msgid "Requested Mileage"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:308
+msgid "Additional Mileage"
+msgstr ""
+
+#: lib/shortcodes/rentalbuddy_calulator.php:320
+msgid "Total"
+msgstr ""

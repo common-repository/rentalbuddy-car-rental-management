@@ -1,0 +1,511 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+
+	Author        : Ateeq Rafeeq (https://www.webfulcreations.com)
+	Template Name : 
+	Version       : 1.0
+	CopyRight     : 2023 january @ www.webfulcreations.com
+
+
+	- Mobile And Tablet Styles are 
+	- located in responsive-styles.css File inside assets/css/
+-------------------------------------------------------------------*/
+
+
+.Car-Cost-top-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #9abf51;
+}
+.Car-Cost-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-col {
+    flex: 0 0 auto;
+    width: 16.666%;
+}
+.form-col-text {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.Car-Cost-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.cars-vehcile-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cars-vehcile-col {
+    flex: 0 0 auto;
+    width: calc(50% - 4px);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #ededed;
+    margin: 2px;
+    background: rgba(255,255,255,0.3);
+}
+.cars-vehcile-col-md-6 {
+    width: 50%;
+}
+.Car-Cost-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cars-vehcile-col .description,
+.cars-vehcile-col .body-img,
+.cars-vehcile-col h3,
+.cars-vehcile-text,
+.Car-Cost-btn.button-box {
+    padding: 0 15px;
+}
+.cars-vehcile-col .description {
+    margin-top:25px;
+}
+/*--------------------------------
+	Top Bar CSS
+--------------------------------*/
+.Car.Cost {
+    position: relative;
+}
+.Calculator h2{
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: left;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+label {
+    padding-top: 10px;
+    font-size: 18px;
+    color: rgb(74, 74, 74);
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+input#pickupdate,
+input#Additionalkm,
+select#returntime,
+input#returntime,
+input#returndate,
+select#pickuptime,
+input#pickuptime, 
+select#thevehselected{
+    padding: 20px;
+    border-radius: 40px;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Car-Cost-btn .btn-primary {
+    background-color: #5533A6 !important;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+    padding: 14px;
+    margin: 16px 0;
+}
+.btn.btn-primary:hover {
+    background-color: #247ab0;
+    color:#fff;
+}
+.Car-Cost label {
+    padding-top: 10px;
+    font-size: 18px;
+    color: rgb(74, 74, 74);
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.cars-vehcile {
+    background: #F7f7f7;
+    padding: 25px;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/*--------------------------------
+	Top Bar CSS Ends
+--------------------------------*/
+.cars-vehcile-text h2 {
+    margin-bottom: 31px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5533A6;
+}
+.body-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+	text-align: center;
+}
+.hour-price {
+    font-size: 39px;
+    color: #5533A6;
+    line-height: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-transform: none;
+    font-weight: bold;
+}
+.hour-price  span {
+    color: #5533A6;
+    font-size: 18px;
+    line-height: 1.2;
+   
+}
+.day-price span {
+    color: #5533A6;
+    font-size: 21px;
+    line-height: 1.2;
+    text-transform: none;
+}
+.description ul li {
+    width: 100%;
+    font-size: 16px;
+    color: rgb(74, 74, 74);
+    line-height: 1.333;
+    text-align: left;
+    font-weight: normal;
+}
+.description  ul {
+    list-style: none;
+}
+.description ul li:before {
+    color: #5533A6 !important;
+    content: "•";
+    padding-right: 10px;
+}
+.cars-vehcile h3 {
+    color: #5533A6;
+    font-size: 21px;
+    border-bottom: 1px solid #5533A6;
+    display: inline-block;
+    padding: 0 10px 10px 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.d-grid.gap-1 .btn.btn-primary {
+	
+    font-size: 42px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid #5cb0e5;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    padding-right: 25px;
+}
+.d-grid.gap-1 .btn.btn-primary:hover {
+	background-color:#247ab0;
+}
+
+@media screen and (max-width:1199px) {
+    .form-col {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .form-col {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .cars-vehcile-col {
+        width: 100%;
+    }
+
+
+}
+.calculationsTotalWrap {
+    background-color:#f7f7f7;
+    padding:25px;
+    border:1px solid #ededed;
+    border-radius:10px;
+}
+.vehiclepicure {
+    text-align: center;
+}
+.vehiclepicure img {
+    height:200px;
+    width:auto;
+    margin-bottom:15px;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+.rentalbuddy-slidecontainer {
+    width: 100%;
+}
+input[type="range"].rentalbuddy-slider,
+.rentalbuddy-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #5034a0 !important;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 8px;
+}
+input[type="range"].rentalbuddy-slider:hover,
+.rentalbuddy-slider:hover {
+    opacity: 1;
+}
+input[type="range"].rentalbuddy-slider::-webkit-slider-thumb,
+.rentalbuddy-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #5034a0;
+    cursor: pointer;
+    border-radius: 100%;
+}
+input[type="range"].rentalbuddy-slider::-moz-range-thumb,
+.rentalbuddy-slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #5034a0;
+    cursor: pointer;
+}
+.calc-item__title {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #001931 !important;
+    margin-bottom: 4px;
+}
+.calc-range-slider-min-max {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 0 !important; 
+    padding: 0;
+    width: 100%;
+}
+.calc-range-slider-min-max span {
+    color: #00193180 !important;
+}
+.calc-range-slider-min-max>span {
+    font-size: 12px;
+    font-weight: 500;
+}
+h2.rentalbuddy-container-title {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 80px;
+    font-size: 3rem;
+}
+h3.sub-item-title {
+    font-size: 20px;
+}
+.calc-item__description.before h6 {
+    margin-top: 12px;
+}
+.calc-item__description {
+    margin-top:20px !important;
+}
+.calc-item-subtotal-total ,
+.calc-item__title.ccb-range-field {
+    display: flex;
+    justify-content: space-between;
+}
+.calc-item-Transport-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.calc-item-transport-box {
+    width: calc(50% - 12px);
+    padding: 10px;
+    background: #FFF;
+    margin: 6px !important;
+    padding: 6px !important;
+    border: 1px solid #ededed !important;
+}
+.calc-item-transport-box label {
+    border: 2px solid #eee;
+    padding: 15px;
+    border-radius: 4px;
+}
+.calc-item-transport-text img {
+    border-radius: 4px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+}
+.Transport-box-title h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.calc-item-transport-box label>[type=radio] {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.calc-item-Transport-title {
+    margin-top: 46px;
+    padding: 10px;
+}
+
+span.sub-item-space {
+    box-sizing: border-box;
+    color: inherit;
+    flex: 1;
+    margin: 0 5px 0 9px;
+    overflow: hidden;
+    position: relative;
+}
+
+span.sub-item-space:after {
+    bottom: 0;
+    color: inherit;
+    content: ".....................................................................................................................................................................................................";
+    font-size: 16px;
+    height: 100%;
+    left: 0;
+    letter-spacing: 1px;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+}
+.calc-item-subtotal-box {
+    display: flex;
+    overflow: hidden;
+    margin: 11px 0;
+}
+.calc-item-transport-box input ,
+.calc-radio-wrapper.calc_radio_field_id_3 input {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999 !important;
+    transition: 0.2s all linear;
+    position: relative;
+    margin-bottom: 0;
+}
+.calc-item-transport-box input:checked,
+.calc-radio-wrapper.calc_radio_field_id_3 input:checked {
+    border: 6px solid #5034a0;
+}
+.calc-item-transport-box label.current {
+    border-color: #5034a0;
+}
+.calc-item-subtotal-total {
+    border-top: 1px solid #afafaf;
+    margin: 15px 0px;
+    padding: 15px 0;
+}
+.calc-item-title h3, 
+h3.sub-item-title {
+    margin-bottom: 30px !important;
+    font-size:18px !important;
+}
+.thekilometers {
+    margin-top:20px !important;
+	display:block;
+ }
+.thekilometers h6 {
+    font-size:18px !important;
+    margin-bottom:15px !important;
+}
+.ren_step input[type=number],
+.ren_step input[type=datetime-local] {
+    width:100% !important;
+    padding:8px 15px !important;
+}
+.ren_step {
+    padding:20px !important;
+    background: #f7f7ff;
+    margin:15px !important;
+    min-height:calc( 100% - 32px );
+}
+.calc-radio-wrapper label {
+    width:100%;
+    display:block;
+    margin-bottom:6px !important;
+}
+.hideme {
+    opacity:0;
+    display:none;
+}
+.showme {
+    display: block;
+    opacity:1;
+}
+.kilometers.showme {
+    display:flex !important;
+}
+@media screen and (max-width:650px) {
+	.am-fs-sb {
+		display:none !important;
+	}
+}
+.kmdriven {
+    width: 90%;
+    text-align: center;
+    background: #5533a6;
+    padding: 5px;
+    color: #FFF;
+    margin-top: 15px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 15px;
+}
+.kmdriven span {
+    color:#FFF;
+}
+@media screen and (max-width:560px) {
+	.Car-Cost-container {
+		padding-left:0px !important;
+		padding-right:0px !important;
+		margin-top:0px !important;
+	}
+	.cars-vehcile {
+		padding:3px !important;
+	}
+	.body-img {
+		width:100% !important;
+		display:block !important;
+	}
+	.body-img .cars-vehcile-col-md-6 {
+		width:100% !important;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+}
+@media screen and (max-width:1199px) {
+    .form-col {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .form-col {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .cars-vehcile-col {
+        width: 100%;
+    }
+}
